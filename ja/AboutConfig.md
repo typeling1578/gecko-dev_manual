@@ -131,6 +131,15 @@ type: String
 プライベートブラウジングモード時にMozilla VPNのプロモーションをクリックしたときに開かれるURLを設定します。
 
 
+### browser.search.separatePrivateDefault.ui.enabled
+type: Boolean
+
+通常ウィンドウとプライベートウィンドウで使用する検索エンジンを別々に指定できるようにするかを設定します。
+
+true: 指定できる
+false: 指定できない
+
+
 ### browser.send_pings
 type: Boolean
 
